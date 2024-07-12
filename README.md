@@ -1,6 +1,6 @@
 # Motor Vehicle Collisions in NYC
 
-Live server: [Motor Vehicle Collisions in NYC](https://motor-vehicle-collisions-within-nyc.streamlit.app)
+Live server: [Motor Vehicle Collisions in NYC](https://motor-vehicle-collisions-within-nyc.streamlit.app)<br>
 Last Updated: July 2024
 
 ## Table of Contents
