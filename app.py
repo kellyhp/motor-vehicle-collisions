@@ -11,6 +11,7 @@ DATA_URL = (
 )
 
 st.title("Motor Vehicle Collisions in New York City")
+st.markdown("**Kelly Phan - July 2024**")
 st.markdown("This Streamlit dashboard provides a comprehensive analysis of motor vehicle"
         "collisions in New York City  🏙️💥🚗, offering insights into the frequency, locations, and causes of accidents."
         "The visualizations include **interactive maps, bar charts, line graphs, and parallel categories diagrams**, " 
@@ -145,7 +146,7 @@ heatmap = px.density_heatmap(
     z='collisions', 
     color_continuous_scale='Viridis'
 )
-heatmap.update_xaxes(tickvals=tickvals, ticktext=ticktext, title='hour of Day (0-23)')
+heatmap.update_xaxes(tickvals=tickvals, ticktext=ticktext, title='hour of day (0-23)')
 st.write(heatmap)
 
 st.markdown("The **heatmap of collisions by date and hour** offers a detailed view of when accidents are most frequent, combining temporal and spatial data to reveal critical periods of high risk.")
