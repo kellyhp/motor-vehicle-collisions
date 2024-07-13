@@ -184,7 +184,7 @@ else:
 
 st.markdown("The **top 10 dangerous streets visualization**, categorized by affected people (pedestrians, cyclists, motorists), "
             "points out specific locations with high numbers of injuries and fatalities. "
-            ":blue-background[highlightThis information is vital for targeted road safety improvements and public awareness campaigns.]")
+            ":blue-background[This information is vital for targeted road safety improvements and public awareness campaigns.]")
 
 def clean_vehicle_type(vehicle_type):
     vehicle_type = vehicle_type.replace('VEHICLE', '').strip()
@@ -256,7 +256,7 @@ st.plotly_chart(fig)
 st.markdown("The **parallel categories diagram** explores the relationship between vehicle types, "
             "contributing factors, and outcomes (injuries or deaths). By identifying the most common "
             "contributing factors and vehicle types involved in severe accidents, this visualization "
-            "helps in understanding :blue-background[highlightunderlying causes and formulating targeted prevention strategies.]")
+            "helps in understanding :blue-background[underlying causes and formulating targeted prevention strategies.]")
 
 if st.checkbox("Show Raw Data", False):
     st.subheader("Raw Data")
